@@ -1,12 +1,16 @@
 <!-- HTML -->
 <template>
-  <div>
-    <h1>Home View</h1>
+  <div id="neger">
+<img src="@/assets/logo.png" alt="FoodCorp.dk Logo">
   </div>
 </template>
 
 <!-- SCSS -->
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+#neger {  
+border: 2px solid black;
+}
+</style>
 
 <!-- JavaScript - NIKS PILLE! -->
 <script></script>

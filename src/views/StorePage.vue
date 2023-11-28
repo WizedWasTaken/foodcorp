@@ -1,12 +1,12 @@
 <!-- HTML -->
 <template>
   <div>
-    <h1>Home View</h1>
+    <h1>Store</h1>
   </div>
 </template>
 
 <!-- SCSS -->
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>
 
 <!-- JavaScript - NIKS PILLE! -->
 <script></script>

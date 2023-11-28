@@ -1,14 +1,13 @@
 <!-- HTML -->
 <template>
-  <div id="container">
+  <div id="parent">
     <h1>Home View</h1>
   </div>
 </template>
 
 <!-- SCSS -->
 <style scoped lang="scss">
-#container {
-  border: 2px solid black;
+#parent {
   height: 95vh;
   display: flex;
   justify-content: center;

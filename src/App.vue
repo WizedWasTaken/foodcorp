@@ -20,11 +20,15 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
 }
 
 #papaErAdem {
   display: flex;
+}
+
+.router-link-active,
+.router-link-exact-active {
+  color: lightgreen !important;
 }
 
 #notSidebar {

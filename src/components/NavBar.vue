@@ -1,10 +1,12 @@
 <template>
   <nav>
     <img src="@/assets/logo.png" alt="FoodCorp.dk Logo" />
-    <router-link to="/">Home</router-link>
-    <router-link to="/stores">Restauranter</router-link>
-    <router-link to="/menu">Menu Kort</router-link>
-    <router-link to="/about">Om Os</router-link>
+    <div class="hoverEffectNav">
+      <router-link to="/">Home</router-link>
+      <router-link to="/stores">Restauranter</router-link>
+      <router-link to="/menu">Menu Kort</router-link>
+      <router-link to="/about">Om Os</router-link>
+    </div>
   </nav>
 </template>
 
@@ -31,8 +33,29 @@ nav {
     margin-bottom: 5%;
   }
 
-  a {
-    padding: 0.5rem 1rem;
+  .hoverEffectNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &:hover a {
+      color: lightgray;
+    }
+
+    a {
+      padding: 1rem 0px;
+      margin-bottom: 5px;
+      width: 80%;
+      text-decoration: none;
+      color: black;
+      transition: color 500ms;
+
+      &:hover {
+        color: black;
+      }
+    }
   }
 }
 </style>

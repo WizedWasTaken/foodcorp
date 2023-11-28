@@ -2,7 +2,6 @@
   <div id="papaErAdem">
     <SideBar />
     <div id="notSidebar">
-      <NavBar />
       <router-view />
       <FooterBar />
     </div>
@@ -28,13 +27,11 @@ body {
 </style>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
 import FooterBar from "@/components/FooterBar.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
   components: {
-    NavBar,
     FooterBar,
     SideBar,
   },

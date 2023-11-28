@@ -1,8 +1,18 @@
 <template>
-  <div class="sidebar"></div>
+  <div class="sidebar">
+    <NavBar />
+  </div>
 </template>
 
-<script></script>
+<script>
+import NavBar from "@/components/NavBar.vue";
+
+export default {
+  components: {
+    NavBar,
+  },
+};
+</script>
 
 <style scoped>
 .sidebar {

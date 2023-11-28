@@ -14,9 +14,19 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 nav {
   background-color: #f2f2f2;
   padding: 10px;
+
+  /* FLEX BOX */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    padding: 0.5rem 1rem;
+  }
 }
 </style>

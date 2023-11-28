@@ -1,14 +1,17 @@
 <!-- HTML -->
 <template>
-  <div id="neger">
-<img src="@/assets/logo.png" alt="FoodCorp.dk Logo">
+  <div id="container">
+    <h1>Home View</h1>
   </div>
 </template>
 
 <!-- SCSS -->
 <style scoped lang="scss">
-#neger {  
-border: 2px solid black;
+#container {
+  border: 2px solid black;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
 }
 </style>
 

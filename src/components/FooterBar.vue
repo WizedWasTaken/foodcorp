@@ -5,8 +5,8 @@
 </template>
 
 <style scoped>
-.footer {
+footer {
   background-color: #f8f8f8;
-  padding: 20px 0;
+  height: 5vh;
 }
 </style>

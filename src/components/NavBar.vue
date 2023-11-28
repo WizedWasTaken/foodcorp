@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <h1>NAV</h1>
+    <img src="@/assets/logo.png" alt="FoodCorp.dk Logo" />
     <router-link to="/">Home</router-link>
     <router-link to="/stores">Restauranter</router-link>
     <router-link to="/menu">Menu Kort</router-link>
@@ -24,6 +24,12 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  img {
+    width: 80%;
+    aspect-ratio: 2 / 1;
+    margin-bottom: 5%;
+  }
 
   a {
     padding: 0.5rem 1rem;

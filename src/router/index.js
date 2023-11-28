@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
+/**
+ * Array of route objects.
+ * @type {Array}
+ */
 const routes = [
   {
     path: "/",

@@ -26,11 +26,6 @@ body {
   display: flex;
 }
 
-.router-link-active,
-.router-link-exact-active {
-  color: lightgreen !important;
-}
-
 #notSidebar {
   width: calc(100vw - 250px);
   flex-direction: column;

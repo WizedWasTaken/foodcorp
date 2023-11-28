@@ -1,6 +1,8 @@
 <template>
   <nav>
-    <img src="@/assets/logo.png" alt="FoodCorp.dk Logo" />
+    <router-link to="/">
+      <img src="@/assets/logo.png" alt="FoodCorp.dk Logo" />
+    </router-link>
     <div class="hoverEffectNav">
       <router-link to="/">Home</router-link>
       <router-link to="/stores">Restauranter</router-link>
@@ -33,6 +35,13 @@ nav {
     margin-bottom: 5%;
   }
 
+  a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .hoverEffectNav {
     display: flex;
     flex-direction: column;
@@ -41,7 +50,7 @@ nav {
     width: 100%;
 
     &:hover a {
-      color: lightgray;
+      color: rgb(97, 97, 97);
     }
 
     a {
@@ -51,6 +60,7 @@ nav {
       text-decoration: none;
       color: black;
       transition: color 500ms;
+      justify-content: flex-start;
 
       &:hover {
         color: black;
